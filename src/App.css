@@ -3,9 +3,13 @@
 }
 
 .ui.main.container{
-  margin-top: 5em;
+  margin-top: 1em;
 }
 
 .ui.sidebar{
  margin-left: 2em;
+}
+.ui.column.grid>[class*="two wide"].column, .ui.grid>.column.row>[class*="two wide"].column, .ui.grid>.row>[class*="two wide"].column, .ui.grid>[class*="two wide"].column {
+  width: 12.5%!important;
+  display: flex;
 }

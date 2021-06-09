@@ -8,11 +8,8 @@ export default function Dashboard() {
     <div>
       <Grid>
         <Grid.Row>
-          <Grid.Column width={2}>
+          <Grid.Column>
             <SideBar/>
-          </Grid.Column>
-          <Grid.Column width={14}>
-              <Section/>
           </Grid.Column>
         </Grid.Row>
       </Grid>

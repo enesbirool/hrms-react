@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Button, Menu, Icon, Dropdown } from 'semantic-ui-react';
+import { Container, Button, Menu, Icon, Dropdown, Checkbox } from 'semantic-ui-react';
 import "../App.css";
 
 export default function Navi() {
@@ -20,13 +20,13 @@ export default function Navi() {
                             </Dropdown.Menu>
                         </Dropdown>
                         <Menu.Menu position="right">
-                        <Dropdown item text='Dil'>
-                            <Dropdown.Menu>
-                                <Dropdown.Item>English</Dropdown.Item>
-                                <Dropdown.Item>Russian</Dropdown.Item>
-                                <Dropdown.Item>Spanish</Dropdown.Item>
-                            </Dropdown.Menu>
-                        </Dropdown>
+                            <Dropdown item text='Dil'>
+                                <Dropdown.Menu>
+                                    <Dropdown.Item>English</Dropdown.Item>
+                                    <Dropdown.Item>Russian</Dropdown.Item>
+                                    <Dropdown.Item>Spanish</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
                             <Button.Group>
                                 <Button>Giris yap</Button>
                                 <Button.Or />
